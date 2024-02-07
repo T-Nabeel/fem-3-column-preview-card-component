@@ -1,0 +1,15 @@
+// Default layout - Desktop
+
+// Mobile devices
+@mixin onMobile {
+  @media screen and (max-width: 500px){
+    @content;
+  }
+}
+
+// Tablet devices
+@mixin onTablet {
+  @media screen and (max-width: 1080px){
+    @content;
+  }
+}
